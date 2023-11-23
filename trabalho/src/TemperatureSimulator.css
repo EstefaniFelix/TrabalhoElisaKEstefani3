@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6eff1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+.Temperatura {
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: context-menu;
+}
+.Temperaturafar {
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: context-menu;
+}
+
+.header{
+  background-color: aqua;
+}
+
+.imagem{
+  height: 250px;
+  width: 250px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: rgb(0, 240, 240);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(74, 181, 252);
+  color: rgb(0, 0, 0);
+}
